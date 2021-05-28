@@ -1,0 +1,17 @@
+---
+title: "ex5_md"
+author: "Linus Rüegg"
+date: "5/28/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(readr)        # to import tabular data (e.g. csv)
+library(dplyr)        # to manipulate (tabular) data
+library(ggplot2)      # to visualize data
+library(lubridate)    # To handle dates and times
+```
+
+
